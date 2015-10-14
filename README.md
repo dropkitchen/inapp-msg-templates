@@ -2,7 +2,6 @@
 custom artwork message  templates that can be used with localytics in-app messaging
 
 # Localytics - In-App Message Templates
-
 ___
 
 ##### To create a center modal in-app message use the following:
