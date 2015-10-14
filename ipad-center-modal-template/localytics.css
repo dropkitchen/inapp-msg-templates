@@ -1,0 +1,103 @@
+@font-face {font-family: "Museo-Slab-900"; src: url('Museo_Slab_900.otf') format('opentype')}
+@font-face {font-family: "OpenSans-Condensed"; src: url('OpenSans-CondLight.ttf') format('truetype')}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body{
+}
+
+body{
+  margin:0
+}
+
+#container
+{
+  position: absolute;
+  top: 0;
+  border-radius: 10px;
+  background-color: #FFF;
+  width: 600px;
+  height: 500px;
+
+}
+
+ #title
+ {
+   font-family: 'Museo-Slab-900';
+ }
+
+ h1
+ {
+   width:100%;
+   text-align: center;
+   color:#b31b34;
+ }
+ #message
+ {
+   font-family: 'OpenSans-Regular';
+   padding-top: 1%;
+   padding-bottom: 1%;
+   text-align: center;
+   font-size:26px;
+   width: 90%;
+   margin: 0 auto;
+ }
+
+ #image
+ {
+   height: 45%;
+   margin: none;
+ }
+
+ #image img{
+   max-height: 100%;
+   max-width:100%;
+   margin: 0 auto;
+   display:-webkit-box;
+
+ }
+
+ button
+ {
+   border-radius: 3px;
+     -moz-border-radius: 7px;
+     -webkit-border-radius: 7px;
+     -webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	  box-shadow: none;
+    border:none;
+    padding: 12px;
+    width:47%;
+    font-family: 'OpenSans-Condensed';
+    text-transform: uppercase;
+    font-weight: 700;
+    color:white;
+    margin: 1%;
+    font-size: 20px;
+ }
+
+ button.red
+ {
+   background-color: #b31b34;
+ }
+
+ button.black
+ {
+   background-color: #333333;
+ }
+
+ #button-container
+ {
+   margin: 0 auto;
+   width: 80%;
+ }
+
+#cta
+{
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
