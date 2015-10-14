@@ -2,13 +2,11 @@
 custom artwork message  templates that can be used with localytics in-app messaging
 
 # Localytics - In-App Message Templates
-___
 
-##### To create a center modal in-app message use the following:
+#### To create a center modal in-app message use the following:
 
 - For iphone download the folder [iphone-center-modal-template]
 - For iPad download the folder [ipad-center-modal-template]
-___
 
 Inside this folder you will find a file called [index.html].
 Within this file you will need to edit the following: 
@@ -17,14 +15,14 @@ Within this file you will need to edit the following:
   - Message
   - Button text
 
-#### To edit the **Title** of your in-app message:
+### To edit the **Title** of your in-app message:
 Enter your text between the 
 
 `<h1></h1>` tags.
 
 >Eg. `<h1>WWWWWWWWW</h1>` Replace `WWWWWW` with your text.
 
-#### To edit the **Message**
+### To edit the **Message**
 Enter your text between the `<div id="message"></div>` tags.
 
 >Eg. 
@@ -43,7 +41,7 @@ Replace `some text here`
 2. For the **Ok button** replace the text betewen the `<button id="black_button"></button>` tags.
 >Eg. `<button id="black_button" class="black" type="submit">some text here</button>`
 Replace `some text here`
----
+
 ##### If you wish your **Ok button to open up a browser** on the phone with the url of your choice you should edit the attributes within the `<form>` tag.
 
 ```<form action="http://getdrop.com?ampAction=visited_getDrop&ampExternalOpen=true">```
@@ -53,7 +51,7 @@ Replace `some text here`
 >`?ampAction=visited_getDrop` - **visited_getDrop** is the keyword that will appear in in the Events Dashboard of localytics.  You may change that keyword to an event keyword of your choice.
 
 >`&ampExternalOpen=true` - this must be set to allow the external browser to open. 
-___
+
 
 ### To include your own image
 
