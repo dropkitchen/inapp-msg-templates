@@ -5,8 +5,8 @@ custom artwork message  templates that can be used with localytics in-app messag
 
 #### To create a center modal in-app message use the following:
 
-- For iphone download the folder [iphone-center-modal-template]
-- For iPad download the folder [ipad-center-modal-template]
+- For iphone messages work within the folder [iphone-center-modal-template]
+- For iPad messages work within the folder [ipad-center-modal-template]
 
 Inside this folder you will find a file called [index.html].
 Within this file you will need to edit the following: 
