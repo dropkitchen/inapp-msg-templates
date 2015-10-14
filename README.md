@@ -5,7 +5,8 @@ custom artwork message  templates that can be used with localytics in-app messag
 
 ___
 
-##### To create an center modal in-app message use the folder named [iphone-center-modal-template]
+##### To create a center modal in-app message use the following:
+
 - For iphone download the folder [iphone-center-modal-template]
 - For iPad download the folder [ipad-center-modal-template]
 ___
@@ -82,6 +83,11 @@ Zip the folder for upload to Localytics by selecting **all** the files included 
 
 When you have created the new archive upload the archive to the message builder according to localytics instructions [here]
 
+#### Some Gotchas
+
+1. Once you have uploaded the artwork to Localytics Dashboard you will have the opportunity to preview the work.  The preview is not 100% reliable, so the only reliable way to test the artwork is on an actual device
+2. Currently Test Mode is not working so you must [at the moment anyway] test on a live campaign.  You should create an audience that includes only yourself so that while you are testing only you will receive the in-app message.
+3. According to Localytics "With regards to the in-app timing, when choosing an "Audience" of everyone, the message will send immediately.  It can take a bit time if you are not choosing an Audience of "everyone" as we have a segmenter that has to filter through the data and pull out the particular users you are filtering for." This means that you may wait up to 30 minutes the campaign has been scheduled to go live to see the message appear on your device.  ****NOTE *** Old messages will still appear during this time. 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does it's job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
