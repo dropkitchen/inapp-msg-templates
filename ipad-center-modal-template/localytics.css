@@ -89,6 +89,11 @@ body{
    background-color: #333333;
  }
 
+ button a{
+   color: white;
+   text-decoration: none;
+ }
+
  #button-container
  {
    margin: 0 auto;

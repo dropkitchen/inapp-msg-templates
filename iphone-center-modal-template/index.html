@@ -7,20 +7,24 @@
   <body>
       <div id="container">
           <div id="title">
+            <!-- TODO: Figure out how long the title can be.  Must consult with Jonny to get Artwork that will work in smaller screen size -->
               <h1>WWWWWWWWWW</h1>
           </div>
           <div id="image">
               <img src="sampleImage.png">
           </div>
           <div id="message">
+              <!-- TODO: Again we need to talk to jonny about getting artwork that will work with smaller screen -->
               Apple pie sweet cotton candy pudding. Liqourice toffee sweet. Topping brownine fruitcake chocalate bar pie sweet cotton candy pudding.
           </div>
           <div id="cta">
               <div id="button-container">
-                <form action="http://getdrop.com?ampAction=went_to_drop_from_iphone&ampOpenExternal=true">
-                    <button id="red_button" class="red" ampAction="dismissed_on_iphone" type="dismiss">some text here</button>
-                    <button id="black_button" class="black" type="submit">some text here</button>
-                </form>
+                  <button id="red_button" class="red" ampAction="dismissed_on_iphone" type="dismiss">some text here</button>
+                  <button id="black_button" class="black" type="submit">
+                      <a href="http://getdrop.com?ampAction=went_to_drop_from_iphone&ampOpenExternal=true">
+                        some text here
+                      </a>
+                  </button>
               </div>
           </div>
       </div>

@@ -20,14 +20,14 @@
           </div>
           <div id="cta">
               <div id="button-container">
-                <!-- within the <button> tags you need to type the text that you want the user to be able to see on that button -->
-                <form action="http://getdrop.com?ampAction=visited_getDrop&ampExternalOpen=true">
-                        <button id="red_button" class="red" type="dismiss">XXXXXXXXXXXXXX</button>
-                          <!-- You need to do two things here:
-                              1. within the inverted commas, and after ampAction=  write the text that you want to appear in your localytics Dashboard for that button click
-                              2. within the <button> tag, write the text that you want the user to be able to see on that button -->
-                        <button id="black_button" class="black" type="submit">WWWWWWWWWWWWWW</button>
-                  </form>
+                  <!-- within the <button> tags you need to type the text that you want the user to be able to see on that button -->
+                  <button id="red_button" class="red" type="dismiss">XXXXXXXXXXXXXX</button>
+                    <!-- You need to do a few things here:
+                        1. within the inverted commas, and after href=  insert the URL of the site you want the user to be brought to
+                        2. After the URL, change ?ampAction=LL_test  to ?ampAction=[insert keyword of your choice]
+                        3. add ?ampExternalOpen=true if you want the button to bring the user to an external browser
+                        4. within the <button> tag, write the text that you want the user to be able to see on that button. ie replace [Do you mean this?]-->
+                  <button id="black_button" class="black"><a href="http://www.google.com?ampAction=LL_test&ampExternalOpen=true">Do you mean this?</a></button>
               </div>
           </div>
       </div>
