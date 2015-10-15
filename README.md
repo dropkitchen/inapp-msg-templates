@@ -35,18 +35,17 @@ Replace ```Apple pie sweet.....```
 
 1. For the **dismiss button** replace the text between `<button id="red_button></div>` tag.
 
->Eg. `<button id="red_button" class="red" ampAction="dismissed_on_iphone" type="dismiss">some text here</button>`
+>Eg. `<button id="red_button" class="red" type="dismiss">some text here</button>`
 Replace `some text here`
 
-2. For the **Ok button** replace the text betewen the `<button id="black_button"></button>` tags.
->Eg. `<button id="black_button" class="black" type="submit">some text here</button>`
-Replace `some text here`
+2. For the **Ok button** replace the text betewen the `<a>Do you mean this?</a>` tags.
+>Eg. `<a>[Your Text here]</a>`
 
-##### If you wish your **Ok button to open up a browser** on the phone with the url of your choice you should edit the attributes within the `<form>` tag.
+##### To log the event to Localytics you need to add the `ampAction=[your_keyword_here]` to the `<a>` tag.
 
-```<form action="http://getdrop.com?ampAction=visited_getDrop&ampExternalOpen=true">```
+> Eg. <a href="http://getdrop.com?ampAction=[your_keyword_here]">
 
->`http://getdrop.com` - the url that will open in the external browser
+>`http://getdrop.com` - we can set an external site to be opened when the button is clicked
 
 >`?ampAction=visited_getDrop` - **visited_getDrop** is the keyword that will appear in in the Events Dashboard of localytics.  You may change that keyword to an event keyword of your choice.
 
