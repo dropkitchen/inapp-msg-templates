@@ -1,5 +1,7 @@
 @font-face {font-family: "Museo-Slab-900"; src: url('Museo_Slab_900.otf') format('opentype')}
-@font-face {font-family: "OpenSans-Condensed"; src: url('OpenSans-CondLight.ttf') format('truetype')}
+@font-face {font-family: "OpenSans-Regular"; src: url('OpenSans-Regular.ttf') format('truetype')}
+@font-face {font-family: "OpenSans-Bold"; src: url('OpenSans-Bold.ttf') format('truetype')}
+@font-face {font-family: "OpenSans-CondBold"; src: url('OpenSans-CondBold.ttf') format('truetype')}
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -10,7 +12,7 @@ html, body{
 }
 
 body{
-  margin:0
+  margin:0;
 }
 
 #container
@@ -27,23 +29,32 @@ body{
  #title
  {
    font-family: 'Museo-Slab-900';
+   margin-top: 25px;
+   margin-bottom: 10px;
+
  }
 
  h1
  {
-   width:100%;
+   width:83.33%;
    text-align: center;
    color:#b31b34;
+   margin-bottom: 0;
+   font-size: 26px;
+   line-height: 34px;
+   margin: 0 auto;
  }
  #message
  {
    font-family: 'OpenSans-Regular';
-   padding-top: 1%;
-   padding-bottom: 1%;
+   padding-top: 3%;
+   padding-bottom: 2%;
    text-align: center;
-   font-size:26px;
-   width: 90%;
+   font-size:17px;
+   line-height: 24px;
+   width: 83.33%;
    margin: 0 auto;
+   height: 100px;
  }
 
  #image
@@ -62,26 +73,26 @@ body{
 
  button
  {
-   border-radius: 3px;
-     -moz-border-radius: 7px;
-     -webkit-border-radius: 7px;
+   border-radius: 4px;
+     -moz-border-radius: 4px;
+     -webkit-border-radius: 4px;
      -webkit-box-shadow: none;
 	   -moz-box-shadow: none;
 	  box-shadow: none;
     border:none;
-    padding: 12px;
+    padding: 10px;
     width:47%;
-    font-family: 'OpenSans-Condensed';
+    font-family: 'OpenSans-CondBold';
     text-transform: uppercase;
-    font-weight: 700;
     color:white;
-    margin: 1%;
-    font-size: 20px;
+    margin: 0;
+    font-size: 16px;
  }
 
  button.red
  {
    background-color: #b31b34;
+   margin-right: 5px;
  }
 
  button.black
@@ -97,12 +108,12 @@ body{
  #button-container
  {
    margin: 0 auto;
-   width: 80%;
+   width: 60%;
  }
 
 #cta
 {
   position: absolute;
-  bottom: 20px;
+  bottom: 25px;
   width: 100%;
 }

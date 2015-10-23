@@ -1,5 +1,5 @@
 @font-face {font-family: "Museo-Slab-900"; src: url('Museo_Slab_900.otf') format('opentype')}
-@font-face {font-family: "OpenSans-Condensed"; src: url('OpenSans-CondLight.ttf') format('truetype')}
+@font-face {font-family: "OpenSans-Regular”; src: url('OpenSans-Regular.ttf') format('truetype')}
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
